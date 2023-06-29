@@ -3,8 +3,8 @@ import { render, fireEvent } from "@testing-library/react";
 import { MyHeading } from "./MyHeading";
 import "@testing-library/jest-dom/extend-expect";
 
-describe("foo", () => {
-  it("should bar", () => {
+describe("MyHeading", () => {
+  it("should contain oo in the Headline", () => {
     const { getByTestId, debug } = render(<MyHeading></MyHeading>);
 
     debug();
